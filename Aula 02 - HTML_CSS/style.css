@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    /* margin: ?    -   margem do elemento, em todos os lados. */
+}
+
+h1 {
+    width: fit-content;
+    /* fit-content    -   tamanho dos elementos filhos. */
+    margin: auto;
+}
+
+.caixa {
+    border-radius: 5px;
+    /* border-radius: ?   -   curvatura de um elemento. */
+}
+
+.pai {
+    width: 80%;
+    /* width: ?     -   altera a largura de um elemento. */
+    height: 400px;
+    /* height: ?    -   altera a altura de um elemento. */
+    margin: auto;
+    /* auto     -   automática. */
+    background-color: antiquewhite;
+    /* background-color: ?      -   cor de fundo do elemento. */
+    border: solid 2px black;
+    /* border: ?    -   borda de um elemento. */
+
+    /* display: block   -   organiza os elementos filhos em blocos, um embaixo do outro. */
+
+    display: flex;
+    /* display: flex    -   organiza os elementos de forma flex, de acordo com a direção. */
+    flex-direction: column;
+    /* flex-direction: ?    -   direção do display: flex    Ex.: column, row. */
+    justify-content: space-evenly;
+    /* justify-content: ?   -   muda a identação do conteúdo.   Ex.: left, right, center. */
+    align-items: center;
+    /* align-items: ?   -   alinhamento dos itens.  Ex.: start, center, end. */
+}
+
+.filho {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+}
+
+.circulo1 {
+    background-color: #ff00f2;
+    align-self: start;
+}
+
+.circulo2 {
+    background-color: #5500ff;
+}
+
+.circulo3 {
+    background-color: #ff0044;
+    align-self: end;
+}

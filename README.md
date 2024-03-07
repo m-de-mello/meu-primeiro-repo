@@ -1,4 +1,3 @@
 # meu-primeiro-repo
-Primeiro Repositório da Faculdade
-
-Estou alterando no remoto!
+Repositório de Atividades - PI (1º CCO)
+Murillo Moreira
