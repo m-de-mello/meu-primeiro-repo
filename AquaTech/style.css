@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Verdana;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: black;
 }
 
@@ -31,6 +31,15 @@ body {
 
 .header .container {
     justify-content: space-between;
+}
+
+.header a {
+    text-decoration: none;
+    color: #e3b062;
+}
+
+.agora {
+    font-weight: 800;
 }
 
 .banner {
@@ -76,7 +85,6 @@ body {
 
 .card h4 {
     font-size: 24px;
-
 }
 
 .footer {
@@ -91,6 +99,49 @@ body {
 }
 
 .footer .container p {
-    color: white;
     font-weight: bold;
+}
+
+.login .container{
+    background-image: url(imagens/bg-jelly-fish-para_outras_pags.png);
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+}
+
+.login .card {
+    background-color: #fff;
+    border-radius: 10px;
+    flex-direction: column;
+    height: 300px;
+    width: 300px;
+    border: 2px solid #32b9cd;
+}
+
+.card h2 {
+    color: #32b9cd;
+}
+
+.formulario button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #32b9cd;
+    color: #fff;
+    font-weight: bold;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.campo input {
+    width: 200px;
+    padding: 7px 15px;
+    border: 2px solid #32b9cd ;
+    border-radius: 10px;
 }
