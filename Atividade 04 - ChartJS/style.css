@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body:hover {
+    cursor: default;
+}
+
+.header {
+    background-color: darkcyan;
+}
+
+.container {
+    display: flex;
+    width: 95%;
+    margin: auto;
+}
+
+.titulo {
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    width: 150px;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: rgb(0, 88, 88);
+}
+
+
+.header .container {
+    justify-content: space-between;    
+}
+
+.dashboard .container {
+    flex-direction: column;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 350px;
+}
+
+.buttons button {
+    border: none;
+    border-radius: 5px;
+    background-color: darkcyan;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 5px 8px;
+    outline: none;
+}
+
+.buttons button:hover, .buttons button:focus {
+    background-color: rgb(0, 88, 88);
+    cursor: pointer;
+}
+
+
+.graficoLinha, .graficoBarra {
+    align-self: center;
+    width: 50%;
+    height: 50%;
+    color: darkcyan;
+}
